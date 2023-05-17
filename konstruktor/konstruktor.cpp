@@ -9,7 +9,7 @@ private:
 public:
 	mahasiswa();
 	mahasiswa(int);
-	mahasiswa(string);
+	mahasiswa(string); 
 	mahasiswa(int iNim, string iNama);
 	void cetak();
 
