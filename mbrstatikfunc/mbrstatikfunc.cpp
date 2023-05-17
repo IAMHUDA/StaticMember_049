@@ -7,7 +7,7 @@ private:
 	static int nim;
 public:
 	int id;
-	string nama;
+	string nama; 
 
 	void setID();
 	void printAll();
@@ -45,7 +45,7 @@ int main() {
 
 	cout << "akses dari luar object =" << mahasiswa::getNim() << endl; //mengakses nim melalui static member function "getnim"
 
-	return 0
+	return 0;
 
 }
 
