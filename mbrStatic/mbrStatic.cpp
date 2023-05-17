@@ -12,7 +12,7 @@ public:
 	mahasiswa(string pnama) :nama(pnama) { setID(); }
 
 };
-
+ 
 int mahasiswa::nim = 0;
 
 void mahasiswa::setID() {
@@ -25,4 +25,19 @@ void mahasiswa::printAll() {
 	cout << "Nim = " << nim << endl;
 	cout << endl;
 	 
+}
+
+int main() {
+	mahasiswa mhs1("lia kurnia");
+	mahasiswa mhs2("asroni");
+	mhs2.nim = 10;
+	mahasiswa mhs3("andi kurnia");
+	mhs3.nim = 20;
+	mahasiswa mhs4("joko purba");
+
+	mhs1.printAll();
+	mhs2.printAll();
+	mhs3.printAll();
+	mhs4.printAll();
+	return 0;
 }
