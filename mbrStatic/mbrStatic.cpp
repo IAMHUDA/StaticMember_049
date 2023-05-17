@@ -24,5 +24,5 @@ void mahasiswa::printAll() {
 	cout << "nama = " << nama << endl;
 	cout << "Nim = " << nim << endl;
 	cout << endl;
-
+	 
 }
